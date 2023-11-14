@@ -14,5 +14,10 @@ abstract class Symbol
         this.name = name;
     }
     
+    public String getName()
+    {
+        return this.name;
+    }
+
     abstract String getVictoryWords();
 }
