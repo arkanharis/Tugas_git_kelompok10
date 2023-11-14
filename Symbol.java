@@ -7,5 +7,7 @@
  */
 abstract class Symbol
 {
+    private String name;
+
     abstract String getVictoryWords();
 }
