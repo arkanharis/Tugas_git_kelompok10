@@ -43,7 +43,7 @@ public class Player
     
     public void setScore(int Score)
     {       
-        this. score = score;
+        this.score = score;
     }
 
     public String getname(){
@@ -53,7 +53,5 @@ public class Player
     public int getScore(){
         return this.score;
     }
-    
-    
     
 }
