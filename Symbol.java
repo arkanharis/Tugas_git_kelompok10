@@ -9,5 +9,10 @@ abstract class Symbol
 {
     private String name;
 
+    public void setName(String name)
+    {
+        this.name = name;
+    }
+    
     abstract String getVictoryWords();
 }
