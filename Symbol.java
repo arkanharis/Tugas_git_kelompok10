@@ -7,5 +7,6 @@
  */
 abstract class Symbol
 {
+    abstract String getName();
     abstract String getVictoryWords();
 }
