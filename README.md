@@ -2,18 +2,19 @@
 Game Suit is a simple console-based Rock-Paper-Scissors game where players can compete against the computer. Make your choice between Rock, Paper, or Scissors and see who comes out victorious!
 
 ##How to Play
-###Clone the Repository:
 
-bash
-`git clone https://github.com/arkanharis/Tugas_git_kelompok10.git`
+###Clone the Repository:
+```
+git clone https://github.com/arkanharis/Tugas_git_kelompok10.git
+
 ###Navigate to the Project Directory:
-`cd Tugas_git_kelompok10`
+```cd Tugas_git_kelompok10
 
 ###Compile the Java Files:
-`javac *.java`
+```javac *.java
 
 ###Run the Game:
-`java Main`
+```java Main
 
 ###Follow the On-Screen Instructions:
 Choose between Rock, Paper, or Scissors.
