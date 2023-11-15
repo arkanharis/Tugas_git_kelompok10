@@ -9,8 +9,7 @@
 public class Symbol {
     private String name;
     private String[] symbolNames = {"Rock", "Paper", "Scissors"};
-
-
+   
     public Symbol(int choice) {
         if (choice >= 1 && choice <= 3) {
             this.name = symbolNames[choice - 1];
@@ -19,4 +18,8 @@ public class Symbol {
         }
     }
 
+    public String getName() {
+        return name;
+    }
+    
 }
