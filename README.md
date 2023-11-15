@@ -1,6 +1,10 @@
 # Game Suit
 Game Suit is a simple console-based Rock-Paper-Scissors game where players can compete against the computer. Make your choice between Rock, Paper, or Scissors and see who comes out victorious!
 
+## Diagram Model
+
+![Diagram Model](https://github.com/arkanharis/Tugas_git_kelompok10/blob/master/Screenshot%202023-11-15%20222551.png)
+
 ## How to Play
 
 ### Clone the Repository:
