@@ -28,5 +28,22 @@ public class Symbol {
     public String getName() {
         return name;
     }
-    
+
+    public String getVictoryWord() {
+        if (name == null || name.isEmpty()) {
+            return "Doesn't have a victory word, make your choice first!";
+        }
+
+        Random random = new Random();
+        switch (name) {
+            case "Paper":
+                return victoryWords[0][random.nextInt(victoryWords[0].length)];
+            case "Rock":
+                return victoryWords[1][random.nextInt(victoryWords[1].length)];
+            case "Scissors":
+                return victoryWords[2][random.nextInt(victoryWords[2].length)];
+            default:
+                return "Doesn't have a victory word";
+        }
+    }
 }
